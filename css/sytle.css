@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(250, 235, 237);
+    padding: 1rem;
+}
+
+.title {
+    text-align: center;
+    padding: 2rem;
+}
+
+.carga {
+    padding: 1.25rem;
+}
+
+.fecha {
+    width: 90px;
+}
+
+#fecha {
+    width: 7rem;
+}
+
+.cliente {
+    width: 15rem;
+    padding: 1rem;
+}
+
+.detalle {
+
+    width: 28.12rem;
+
+}
+
+.cantidadi {
+    width: 2.81rem;
+}
+
+#cantidadi {
+    width: 3.43rem;
+}
+
+.cantidade {
+    width: 2.81rem;
+}
+
+#cantidade {
+    width: 3.43rem;
+}
+
+.ingreso {
+    width: 4.06rem;
+    text-align: center;
+}
+
+#ingreso {
+    width: 4.2rem;
+    }
+
+.egreso {
+    width: 4.06rem;
+}
+
+#egreso {
+    width: 4.06rem;
+}
+
+.agregaritem {
+    width: 5.31rem;
+    background-color: rgb(157, 129, 129);
+    border-radius: 3px;
+    font-size: 0.75rem;
+}
+
+.agregaritem:hover {
+    background-color: rgb(208, 190, 190);
+}
+
+.parrafo1 {
+    padding: 1rem;
+}
+
+/* Este es el recuadro Principal */
+th {
+    border-style: double;
+    background-color: pink;
+    font-size: 0.95rem;
+    padding: 1.25rem;
+
+}
+
+/*.planilla { PARECE QUE ESTO NO VA PORQUE NO HACE NADA)
+    padding: 2rem;
+    background-color: red;
+    /*background-color: rgb(234, 250, 233);
+    text-align: center;
+}*/
+
+/* Este es el fondo del recuadro principal arriba */
+
+.centrado {
+    display: flex;
+    flex-direction: column;
+    border-style: double;
+    background-color: rgb(189, 187, 187);
+    align-items: center;
+}
+
+
+.cuadro-totales {
+    background-color: rgb(143, 167, 159);
+    border-style: double;
+    padding: 1rem;
+    text-align: right;
+    font-size: 1.3rem;
+         
+}
+
+.volver {
+    width: 6.6rem;
+    background-color: rgb(86, 78, 78);
+    border-radius: 3px;
+    font-size: 1.125rem;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.volver:hover {
+    background-color: rgb(126, 119, 119);
+}
+
+/*.reportestitle {
+    text-align: center;
+    padding: 3rem;
+    }*/
+
+.totalh2 {
+    padding: 1rem;
+}
+
+.recuadro {
+    background-color: rgb(189, 180, 197);
+    padding: 2rem;
+    border-radius: 1rem;
+    justify-content: center;
+    font-size: 1.125rem;
+    text-align: start;
+}
+
+table {
+    width: 100%;
+    background-color: rgb(189, 187, 187);
+    border-style: double;
+
+}
+
+.th2 {
+    padding: 1rem;
+    max-width: 31.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+tr {
+    background-color: rgb(234, 250, 233);
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+.estadisticaspage1 {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+        
+}
+
+/* Responsive dispositivos móviles */
+@media (max-width: 600px) {
+
+    .carga,
+    .estadisticaspage1 {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    th {
+        font-size: 0.75rem;
+    }
+
+    .totalh2 {
+        font-size: 1rem;
+    }
+
+    .cuadro-totales {
+        font-size: 1.5rem;
+    }
+
+    .agregaritem,
+    .volver {
+        width: 100%;
+        margin: 0.25rem 0;
+    }
+
+    .planilla,
+    .recuadro {
+        padding: 1rem;
+    }
+}

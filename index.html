@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega Final - Juan Pablo Rivero - Clase 59970</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="Logo">
+    <link rel="stylesheet" href="https://unpkg.com/sweetalert/dist/sweetalert.css">
+    <link rel="stylesheet" href="./css/sytle.css">
+
+</head>
+
+<body>
+    <h1 class="title">Calculadora de Ingresos y Egresos</h1>
+    <div class="estadisticaspage1">
+        <h4 id="dolar-blue" class="dolartitle">Cotización Dolar Blue: $<span id="dolar-precio"></span></h4>
+
+
+        <button id="estadisticaspage">Estadisticas Mensuales</button>
+    </div>
+    <div class="centrado">
+        <div class="formulario">
+
+
+
+            <div class="carga">
+                <form id="gastosCalc">
+                    <label>Fecha <input id="fecha" type="date"></label>
+                    <label>Cliente <input id="cliente" type="text"></label>
+                    <label>Detalle
+                        <select id="cargarArticulos">
+                            <option value="" disabled selected>Selecciona un artículo</option>
+                        </select>
+                    </label>
+                    <label>Cantidad <input id="cantidadi" type="number"></label>
+                    <label>Ingreso <input id="ingreso" type="number"></label>
+                    <label>Cantidad <input id="cantidade" type="number"></label>
+                    <label>Egreso <input id="egreso" type="number"></label>
+                    <button id="agregaritem" class="agregaritem">Agregar Item</button>
+                </form>
+            </div>
+
+
+        </div>
+
+        <table id="Tabla" class="tabla">
+            <thead>
+                <tr class="carga">
+                    <th class="fecha">Fecha</th>
+                    <th class="cliente">Cliente</th>
+                    <th class="detalle">Detalle</th>
+                    <th class="cantidadi">Cantidad</th>
+                    <th class="ingreso">Ingreso</th>
+                    <th class="cantidade">Cantidad</th>
+                    <th class="egreso">Egreso</th>
+                    <th class="valorpar">Subtotal</th>
+                </tr>
+            </thead>
+            <tbody class="planilla">
+
+            </tbody>
+
+        </table>
+
+    </div>
+    <div class="cuadro-totales">
+        <div id="totalIngresos" class="totalIngresos">
+            <p>Total Ingresos $ </p>
+        </div>
+        <div id="totalEgresos" class="totalEgresos">
+            <p>Total Egresos $ </p>
+        </div>
+        <div id="total" class="total">
+            <p>Total Calculado $</p>
+        </div>
+    </div>
+    <button id="limpiar" class="vaciarStorage">Limpiar Datos Históricos</button>
+
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+[
+    {
+        "nombre": "Servicio Tecnico Remoto x Hora",
+        "precio": 18000
+    },
+    {
+        "nombre": "Visita Tecnica",
+        "precio": 45000
+    },
+    {
+        "nombre": "Abono Mensual Clinica",
+        "precio": 550000
+    },
+    {
+        "nombre": "Reparacion Notebook",
+        "precio": 50000
+    },
+    {
+        "nombre": "01 Mantenimiento Mensual GITMED",
+        "precio": 106890
+    },
+    {
+        "nombre": "02 Mantenimiento Mensual Frigorifico San Agustin",
+        "precio": 170000
+    },
+    {
+        "nombre": "07 Mantenimiento Mensual Frigorifico Los Tres",
+        "precio": 170000
+    },
+    {
+        "nombre": "04 Mantenimiento Mensual Inmobiliaria Perez",
+        "precio": 50000
+    },
+    {
+        "nombre": "05 Mantenimiento Mensual Optima Business Park",
+        "precio": 184860
+    },
+    {
+        "nombre": "06 Mantenimiento Mensual Hladan",
+        "precio": 147300
+    },
+    {
+        "nombre": "Mantenimiento Mensual Electrodos Sideral",
+        "precio": 112500
+    },
+    {
+        "nombre": "Mantenimiento Mensual Transpcar",
+        "precio": 50000
+    },
+    {
+        "nombre": "Mantenimiento Mensual Bazar Bontemps",
+        "precio": 168000
+    },
+    {
+        "nombre": "Mantenimiento Mensual Pintesint",
+        "precio": 150000
+    },
+    {
+        "nombre": "Mantenimiento Mensual Blapp",
+        "precio": 405600
+    },
+    {
+        "nombre": "Mantenimiento Mensual Hierros Caniglia",
+        "precio": 60000
+    },
+    {
+        "nombre": "Mantenimiento Mensual Seguros Sobre Ruedas",
+        "precio": 243750
+    },
+    {
+        "nombre": "Mantenimiento Mensual Proamed",
+        "precio": 120000
+    }
+]
